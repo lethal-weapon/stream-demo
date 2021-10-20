@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.collection.StreamMapTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-20T03:38:44" hostname="SEAN-PC" time="0.013">
+<testsuite name="com.thoughtworks.collection.StreamMapTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-20T03:47:20" hostname="SEAN-PC" time="0.007">
   <properties/>
-  <testcase name="should_map_to_length()" classname="com.thoughtworks.collection.StreamMapTest" time="0.004"/>
-  <testcase name="should_map_to_letter()" classname="com.thoughtworks.collection.StreamMapTest" time="0.004"/>
-  <testcase name="should_map_to_triple()" classname="com.thoughtworks.collection.StreamMapTest" time="0.003"/>
+  <testcase name="should_map_to_length()" classname="com.thoughtworks.collection.StreamMapTest" time="0.003"/>
+  <testcase name="should_map_to_letter()" classname="com.thoughtworks.collection.StreamMapTest" time="0.001"/>
+  <testcase name="should_map_to_triple()" classname="com.thoughtworks.collection.StreamMapTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
