@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.collection.StreamReduceTest" tests="3" skipped="0" failures="3" errors="0" timestamp="2021-10-20T03:10:37" hostname="SEAN-PC" time="0.011">
+<testsuite name="com.thoughtworks.collection.StreamReduceTest" tests="3" skipped="0" failures="3" errors="0" timestamp="2021-10-20T03:19:41" hostname="SEAN-PC" time="0.01">
   <properties/>
-  <testcase name="should_return_longest_word()" classname="com.thoughtworks.collection.StreamReduceTest" time="0.004">
+  <testcase name="should_return_longest_word()" classname="com.thoughtworks.collection.StreamReduceTest" time="0.006">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Beijing&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Beijing&gt; but was: &lt;null&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -187,7 +187,7 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="should_return_last_odd_element()" classname="com.thoughtworks.collection.StreamReduceTest" time="0.002">
+  <testcase name="should_return_last_odd_element()" classname="com.thoughtworks.collection.StreamReduceTest" time="0.001">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;15&gt; but was: &lt;0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;15&gt; but was: &lt;0&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)

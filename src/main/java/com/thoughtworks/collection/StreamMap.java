@@ -6,21 +6,31 @@ import java.util.stream.Collectors;
 
 public class StreamMap {
 
-    private static final List<String> ALPHABET = Arrays.asList(
-            "a", "b", "c", "d", "e", "f", "g",
-            "h", "i", "j", "k", "l", "m", "n",
-            "o", "p", "q", "r", "s", "t", "u",
-            "v", "w", "x", "y", "z");
+  private static final List<String> ALPHABET = Arrays.asList(
+    "a", "b", "c", "d", "e", "f", "g",
+    "h", "i", "j", "k", "l", "m", "n",
+    "o", "p", "q", "r", "s", "t", "u",
+    "v", "w", "x", "y", "z"
+  );
 
-    public List<Integer> getTriple(List<Integer> numbers) {
-        return null;
-    }
+  public List<Integer> getTriple(List<Integer> numbers) {
+    return numbers
+      .stream()
+      .map(n -> 3 * n)
+      .collect(Collectors.toList());
+  }
 
-    public List<String> mapLetter(List<Integer> numbers) {
-        return null;
-    }
+  public List<String> mapLetter(List<Integer> numbers) {
+    return numbers
+      .stream()
+      .map(n -> "" + (char) (96 + n))
+      .collect(Collectors.toList());
+  }
 
-    public List<Integer> mapLength(List<String> words) {
-        return null;
-    }
+  public List<Integer> mapLength(List<String> words) {
+    return words
+      .stream()
+      .map(String::length)
+      .collect(Collectors.toList());
+  }
 }
